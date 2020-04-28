@@ -1,0 +1,20 @@
+# include <stdio.h>
+# include<conio.h>
+
+
+int main()
+{
+	printf("Xin chao ca nha!\n");
+	//DE BAI TINH TONG 2 SO NGUYEN
+	//KHAI BAO CAC BIEN
+	int a=0,b=0,s=0;
+	printf("Nhap so a=");
+	scanf("%d",&a);
+	printf("Nhap so b=");
+	scanf("%d",&b);
+	//Tinh tong
+	s=a+b;
+	printf("Tong cua 2 so nguyen %d + %d=%d",a,b,s);
+	return 0;
+
+}
